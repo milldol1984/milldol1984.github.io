@@ -1,0 +1,21 @@
+# Site settings
+title: Cloud Hosting | Cloud Server | Cloud VPS | Máy chủ ảo | Virtual Private Cloud
+email: contact@cloudvis.vn
+description: "CloudVis Technology chuyên cung cấp các sản phẩm và dịch vụ điện toán đám mây các nhân và doanh nghiệp."
+keywords: "cloud hosting, máy chủ ảo, may chu ao, cloud server, cloud vps, máy chủ ảo giá rẻ, may chu ao gia re, vps giá rẻ, vps gia re, can bang tai, cân bằng tải, private cloud"
+baseurl: ""
+#url: "http://127.0.0.1:4000"
+url: "http://www.cloudvis.vn"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  toc_levels: "2,3,4,5"
+permalink: /blog/:title/
+relative_permalinks: false
+gems:
+  - jekyll-redirect-from
+
+assets:
+  js_compressor:  uglifier
+  css_compressor: sass

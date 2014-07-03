@@ -1,0 +1,14 @@
+
+{% for section in site.data.docs %}
+<ul class="nav nav-pills nav-stacked">
+    <li class="nav-header disabled"><a>{{ section.title }}</a></li>
+
+    {% for item in section.docs %}
+    {% for p in site.pages %}
+    {% if p.tag == item %}
+    <li><a href="{{p.url}}">{{ p.doc_title }}</a></li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+</ul>
+{% endfor %}

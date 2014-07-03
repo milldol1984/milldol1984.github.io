@@ -1,0 +1,112 @@
+---
+layout: default
+title: Liên hệ
+permalink: /lien-he/
+redirect_from:
+  - /contact/lien-he/
+  - /contact-us/
+  - /contact_us/
+---
+
+<div id="content">
+  <div class="container">
+
+    <div class="row">
+      <!-- sidebar -->
+      <div class="col-md-3 sidebar">
+        <div class="section-menu">
+          <ul class="nav nav-list">
+            <li>
+              <a href="{{site.url}}/gioi-thieu-cloudvis" class="first">
+                Giới Thiệu
+                <small>Về CloudVis</small>
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </li>
+            <li class="active">
+              <a href="javascript:void(0);">
+                Liên Hệ
+                <small>Cùng nhau hợp tác</small>
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--main content-->
+      <div class="col-md-9">
+        <h2 class="title-divider">
+          <span>Liên Hệ </span>
+          <small>Vui lòng điền thông tin. Chúng tôi sẽ liên lạc với bạn trong thời gian sớm nhất.</small>
+        </h2>
+        <div class="row">
+          <div class="col-md-6">
+            <script type="text/javascript">var submitted = false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe"
+                    style="display:none;" onload="if(submitted)
+                    {window.location='{{site.url}}/lien-he/thank-you';}"></iframe>
+            <form action="https://docs.google.com/forms/d/1FWhGWtLHuPN0x_geI63WFoXA8cHFD27MWKxVq5Y3VMc/formResponse" method="post"
+                  target="hidden_iframe" onsubmit="submitted=true;">
+
+              <div class="form-group">
+                <label class="sr-only" for="contact-name">Họ và Tên</label>
+                <input type="text" class="form-control" id="entry_129189141" name="entry.129189141" placeholder="Tên">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="contact-email">Email</label>
+                <input type="email" class="form-control" id="entry_1900097881" name="entry.1900097881" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="contact-message">Thông điệp</label>
+                <textarea rows="12" class="form-control" name="entry.1635860493" id="entry_1635860493" placeholder="Thông điệp"></textarea>
+              </div>
+              <input type="submit" id="ss-submit" data-loading-text="Đang xử lý..." class="btn btn-primary" value="Gửi Liên Hệ">
+
+              <input type="hidden" name="draftResponse" value="[,,&quot;210272042270769236&quot;]">
+              <input type="hidden" name="pageHistory" value="0">
+              <input type="hidden" name="fbzx" value="210272042270769236">
+            </form>
+            <!--<form action="//forms.brace.io/contact@cloudvis.vn" method="POST">-->
+            <!--<div class="form-group">-->
+            <!--<label class="sr-only" for="contact-name">Họ và Tên</label>-->
+            <!--<input type="text" class="form-control" id="contact-name" name="name" placeholder="Tên">-->
+            <!--</div>-->
+            <!--<div class="form-group">-->
+            <!--<label class="sr-only" for="contact-email">Email</label>-->
+            <!--<input type="email" class="form-control" id="contact-email" name="_replyto" placeholder="Email">-->
+            <!--</div>-->
+            <!--<div class="form-group">-->
+            <!--<label class="sr-only" for="contact-message">Thông điệp</label>-->
+            <!--<textarea rows="12" class="form-control" name="message" id="contact-message" placeholder="Thông điệp"></textarea>-->
+            <!--</div>-->
+            <!--<input type="submit" id="submit-btn" data-loading-text="Đang xử lý..." class="btn btn-primary" value="Gửi Liên Hệ" >-->
+            <!--</form>-->
+          </div>
+          <div class="col-md-6">
+            <p>
+              <abbr title="Phone"><i class="fa fa-phone"></i></abbr>
+              (08) 35171764
+            </p>
+
+            <p>
+              <abbr title="Email"><i class="fa fa-envelope"></i></abbr>
+              <a href="mailto:contact@cloudvis.vn">contact@cloudvis.vn</a>
+            </p>
+
+            <p>
+              <abbr title="Address"><i class="fa fa-home"></i></abbr>
+              27, Hoa Đào, Phường 2, Phú Nhuận, TPHCM.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    $('#submit-btn').click(function () {
+        var btn = $(this)
+        btn.button('loading')
+    });
+</script>

@@ -1,0 +1,25 @@
+- title: Cloud Portal
+  docs:
+  - cloud_portal_intro
+- title: Cloud Server
+  docs:
+  - cloud_server_intro
+  - launch_cloud_server
+  - manage_cloud_server
+  - volumes
+  - snapshots
+  - security_group
+  - ip_address
+- title: Cân bằng tải
+  docs:
+  - load_balancer_intro
+  - create_load_balancer
+  - manage_load_balancer
+- title: Virtual Private Cloud (VPC)
+  docs:
+  - vpc_intro
+  - manage_vpc
+  - network
+  - network_acl
+  - port_forwarding
+  - vpn

@@ -1,0 +1,81 @@
+/*
+ *= require bootstrap
+ *= require theme-style
+ *= require colour-red
+ *= require font-awesome
+ *= require clingify
+ *= require bootstrap-slider
+ *= require bootstrap-switch
+ */
+
+/*@import "bootstrap.css";*/
+/*@import "theme-style.css";*/
+/*@import "colour-red.css";*/
+/*@import "font-awesome.css";*/
+/*@import "clingify.css";*/
+/*@import "bootstrap-slider.css";*/
+/*@import "bootstrap-switch.min.css";*/
+
+.nav > li.disabled.nav-header > a {
+  cursor: default;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.js-clingify-locked .header {
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.nav>.dropdown-full .dropdown-menu, .nav>.dropdown-full .mega-menu {
+  right: 0;
+  left: 30%;
+  max-width: 70%;
+}
+
+.block-item {
+  text-align: center;
+}
+.block-item img {
+    margin: auto auto;
+}
+
+.config-item {
+    background: #be3e1d;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-align: center;
+    height: 60px;
+    margin: 5px;
+}
+
+.config-item .config-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+    display: block;
+    text-align: center;
+}
+
+.config-item .config-value{
+    display: block;
+    width: 126px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin: 5px auto 0px auto;
+    background: #d54324;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}

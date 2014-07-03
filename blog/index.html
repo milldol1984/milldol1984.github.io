@@ -1,0 +1,31 @@
+---
+layout: blog
+---
+<div class="blog-roll blog-list">
+{% for post in site.posts %}
+<!-- Blog post -->
+<div class="row blog-post">
+    <div class="col-md-1 date-md">
+        <!-- Date desktop -->
+        <div class="date-wrapper"><span class="date-m">{{ post.date | date: '%B' }}</span> <span class="date-d">{{ post.date | date: '%d' }}</span></div>
+    </div>
+    <div class="col-md-11">
+        <h4 class="title media-heading">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </h4>
+        <!-- Meta details mobile -->
+        <ul class="list-inline meta text-muted">
+            <li><i class="fa fa-calendar"></i> {{post.date}}</li>
+            <!--<li><i class="fa fa-user"></i> <a href="#">Dave</a></li>-->
+        </ul>
+        <div class="row">
+            <div class="col-md-12">
+                {{post.excerpt}}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endfor %}
+
+</div>

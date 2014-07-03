@@ -1,0 +1,111 @@
+<div id="navigation" class="wrapper">
+    <div class="navbar-static-top">
+
+        <!--Header upper region-->
+        <div class="header-upper">
+            <div class="header-upper-inner container">
+                <div class="row">
+                    <div class="col-xs-4 col-xs-push-8">
+                        <div class="btn-group user-menu pull-right">
+                            <a href="https://my.cloudvis.vn/sign_up" class="btn btn-link signup" data-toggle="modal"><i class="fa fa-user"></i> Đăng Ký Tài Khoản</a>
+                            <a href="https://my.cloudvis.vn/sign_in" class="btn btn-link login" data-toggle="modal"><i class="fa fa-lock"></i> Đăng Nhập</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-8 col-xs-pull-4">
+                        <div class="btn-group user-menu pull-left">
+                            <a href="#"  class="btn btn-link">Hỗ trợ: &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-phone"></i> 1800.1765 (Miễn phí)</a>
+                            <a href="#"  class="btn btn-link"><i class="fa fa-envelope"></i> support@cloudvis.vn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Header & Branding region-->
+        <div class="header" data-toggle="clingify">
+            <div class="header-inner container">
+                <div class="navbar">
+                    <div class="pull-left">
+                        <!--branding/logo-->
+                        <a class="navbar-brand" href="{{site.url}}" title="Home">
+                            <img src="/img/cloudvis_logo.png"/>
+                        </a>
+                    </div>
+
+                    <!-- mobile collapse menu button - data-toggle="toggle" = default BS menu - data-toggle="jpanel-menu" = jPanel Menu -->
+                    <a href="#top" class="navbar-btn" data-toggle="jpanel-menu" data-target=".navbar-collapse" data-direction="right"><i class="fa fa-bars"></i></a>
+
+                    <!--everything within this div is collapsed on mobile-->
+                    <div class="navbar-collapse collapse">
+                        <!--main navigation-->
+                        <ul class="nav navbar-nav">
+                            <li class="home-link">
+                                <a href="/"><i class="fa fa-home"></i><span class="hidden">Home</span></a>
+                            </li>
+
+                            <li class="dropdown dropdown-full">
+                                <a href="#" class="dropdown-toggle menu-item" id="features-drop" data-toggle="dropdown" data-hover="dropdown">Cloud Hosting</a>
+                                <ul class="dropdown-menu mega-menu" role="menu" aria-labelledby="features-drop">
+                                    <li role="presentation" class="dropdown-header">Điện toán đám mây</li>
+                                    <li role="presentation">
+                                        <ul class="row list-unstyled" role="menu">
+                                            <li class="col-md-4" role="presentation">
+                                                <a role="menuitem" href="{{site.url}}/cloud-server/may-chu-ao" class="img-link">
+                                                    <img src="/img/public_cloud.png" alt="Cloud Server"/>
+                                                </a>
+                                                <a role="menuitem" href="{{site.url}}/cloud-server/may-chu-ao" tabindex="-1" class="menu-item"><strong>Cloud
+                                                    Server</strong></a>
+                                                <span>Máy chủ ảo công nghệ điện toán đám mây: Ổn định - Bảo bật - Chi phí hợp lý</span>
+                                            </li>
+                                            <li class="col-md-4" role="presentation">
+                                                <a role="menuitem" href="{{site.url}}/cloud-load-balancer/can-bang-tai" class="img-link">
+                                                    <img src="/img/load_balancer.png" alt="Cân bằng tải"/>
+                                                </a>
+                                                <a role="menuitem" href="{{site.url}}/cloud-load-balancer/can-bang-tai" tabindex="-1" class="menu-item"><strong>Cân
+                                                    Bằng Tải</strong></a>
+                                                <span>Cân bằng tải công nghệ điện toán đám mây: Tăng tốc ứng dụng</span>
+                                            </li>
+                                            <li class="col-md-4" role="presentation">
+                                                <a role="menuitem" href="{{site.url}}/virtual-private-cloud" class="img-link">
+                                                    <img src="/img/private_cloud.png" alt="Virtual Private Cloud"/>
+                                                </a>
+                                                <a role="menuitem" href="{{site.url}}/virtual-private-cloud" tabindex="-1" class="menu-item"><strong>Private
+                                                    Cloud</strong></a>
+                                                <span>Khởi tạo datacenter của doanh nghiệp trong vài phút: Bảo mật - Ổn định</span>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle menu-item" id="services-drop" data-toggle="dropdown" data-hover="dropdown">Dịch vụ</a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="services-drop">
+                                    <li role="presentation"><a role="menuitem" href="{{site.url}}/dich-vu/cho-dat-may-chu" class="menu-item">Chỗ đặt máy chủ</a></li>
+                                    <li role="presentation"><a role="menuitem" href="{{site.url}}/dich-vu/thue-may-chu-rieng" class="menu-item">Thuê máy chủ riêng</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle menu-item" id="docs-drop" data-toggle="dropdown" data-hover="dropdown">Tài Liệu & Hỗ Trợ</a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="docs-drop">
+                                    <li role="presentation"><a role="menuitem" href="{{"/docs" | prepend: site.url}}" class="menu-item">Hướng dẫn sử dụng</a></li>
+                                    <li role="presentation"><a role="menuitem" href="http://support.cloudvis.vn" class="menu-item">Kho kiến thức & Hỗ trợ</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="{{site.url}}/blog/" class="dropdown-toggle menu-item" data-hover="dropdown">Blog</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle menu-item" id="about-drop" data-toggle="dropdown" data-hover="dropdown">Về CloudVis</a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="about-drop">
+                                    <li role="presentation"><a role="menuitem" href="{{site.url}}/gioi-thieu-cloudvis" class="menu-item">Giới thiệu</a></li>
+                                    <li role="presentation"><a role="menuitem" href="{{site.url}}/lien-he" class="menu-item">Liên hệ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.navbar-collapse -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
