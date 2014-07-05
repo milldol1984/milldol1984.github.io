@@ -7,6 +7,14 @@
     <meta name="keywords" content="{{ site.keywords }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    {{ 'all' | stylesheet }}
-    {{ 'all' | javascript }}
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/css/all.css" | prepend: site.baseurl }}">
+    <script data-main="js/index" src="/js/jquery.js"></script>
+    <script data-main="js/index" src="/js/jquery.clingify.js"></script>
+    <script data-main="js/index" src="/js/bootstrap.js"></script>
+    <script data-main="js/index" src="/js/bootstrap-hover-dropdown.js"></script>
+    <script data-main="js/index" src="/js/bootstrap-slider.js"></script>
+    <script data-main="js/index" src="/js/bootstrap-switch.min.js"></script>
+    <script data-main="js/index" src="/js/jquery.number.js"></script>
+    <script data-main="js/index" src="/js/script.js"></script>
 </head>

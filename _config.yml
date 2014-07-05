@@ -5,7 +5,7 @@ description: "CloudVis Technology chuyên cung cấp các sản phẩm và dịc
 keywords: "cloud hosting, máy chủ ảo, may chu ao, cloud server, cloud vps, máy chủ ảo giá rẻ, may chu ao gia re, vps giá rẻ, vps gia re, can bang tai, cân bằng tải, private cloud"
 baseurl: ""
 #url: "http://127.0.0.1:4000"
-url: "http://www.cloudvis.vn"
+url: "http://milldol1984.github.io/"
 
 # Build settings
 markdown: kramdown
