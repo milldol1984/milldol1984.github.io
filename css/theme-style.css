@@ -4559,7 +4559,6 @@ blockquote.blockquote-plain.pull-right {
 .title-divider span {
   background: #ffffff;
   padding-right: 0.5em;
-  display: block;
   font-weight: 400;
   color: #333;
 }
@@ -4603,6 +4602,11 @@ blockquote.blockquote-plain.pull-right {
   font-weight: normal;
   color: rgba(51, 51, 51, 0.8);
 }
+
+.title-divider span span.de-em {
+	color: #333;
+}
+
 a .de-em {
   font-weight: normal;
   color: rgba(85, 167, 154, 0.8);
