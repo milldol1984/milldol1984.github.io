@@ -4271,7 +4271,7 @@
 }
 .branding h1 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -5242,7 +5242,7 @@ ul.list-border-spacer li:hover {
 #main-menu > li > a {
   padding: 10px 20px;
   margin: 0;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 12px;
   text-transform: uppercase;
   color: #BABAB3;
@@ -5541,7 +5541,7 @@ ul.list-border-spacer li:hover {
     padding: 18px 20px;
     margin: 0;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 300;
     text-transform: uppercase;
     color: #888;
     border: 1px solid transparent;
@@ -7068,7 +7068,7 @@ ul.list-border-spacer li:hover {
 }
 .header .navbar-brand h1 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -7554,7 +7554,7 @@ body.page-translucent {
 }
 .btn {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.428571429;
   border-radius: 1px;
 }
@@ -8357,7 +8357,7 @@ ul.nav-tabs li.open.active a:active {
 .slide h5,
 .slide p {
   margin-top: 0;
-  font-weight: 400;
+  font-weight: 300;
 }
 .slider-appstrap-theme .tparrows,
 .flex-direction-nav a {
@@ -9313,7 +9313,7 @@ body.has-isotope,
   -moz-border-radius: 2px 2px 2px 2px;
   border-radius: 2px 2px 2px 2px;
   min-width: 50px;
-  font-weight: 400 !important;
+  font-weight: 300 !important;
   background: #F5F5F5;
 }
 .date-wrapper span {
@@ -9815,7 +9815,7 @@ body.has-isotope,
 }
 .header-old #navigation .navbar-brand h1 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   line-height: 1;
