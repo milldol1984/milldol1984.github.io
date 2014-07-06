@@ -8603,10 +8603,21 @@ ul.nav-tabs li.open.active a:active {
 }
 .slide .caption {
   padding: 5%;
-  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  
+  text-align: left!important;
 }
+
+.slide .caption h1,
+.slide .caption h3 {
+	text-transform: initial;
+	color: #fff;
+}
+	
 .slide .caption .btn {
   margin: 0;
+  background: #89c402;
 }
 .slide .caption .inverse {
   background: #1b1b1b;
