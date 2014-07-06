@@ -4271,7 +4271,7 @@
 }
 .branding h1 {
   font-size: 40px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -4543,7 +4543,7 @@ blockquote.blockquote-plain.pull-right {
   color: #d9534f;
   vertical-align: super;
   font-size: 10px;
-  font-weight: bold;
+  font-weight: 400;
 }
 .title-divider {
   text-align: left;
@@ -4584,7 +4584,7 @@ blockquote.blockquote-plain.pull-right {
   font-size: 12px;
 }
 .spacer {
-  font-weight: bold;
+  font-weight: 400;
   color: #55a79a;
 }
 .spacer.dark {
@@ -5013,7 +5013,7 @@ ul.list-border-spacer li:hover {
 }
 .popover-title {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 400;
 }
 .popover-content {
   font-size: 12px;
@@ -5242,7 +5242,7 @@ ul.list-border-spacer li:hover {
 #main-menu > li > a {
   padding: 10px 20px;
   margin: 0;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
   color: #BABAB3;
@@ -5541,7 +5541,7 @@ ul.list-border-spacer li:hover {
     padding: 18px 20px;
     margin: 0;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
     color: #888;
     border: 1px solid transparent;
@@ -5924,7 +5924,7 @@ ul.list-border-spacer li:hover {
   .dropdown-menu li.dropdown-header,
   .dropdown-footer,
   .dropdown-menu li.dropdown-footer {
-    font-weight: bold;
+    font-weight: 400;
     font-size: 12px;
     padding: 5px 10px;
     margin-top: 10px;
@@ -7068,7 +7068,7 @@ ul.list-border-spacer li:hover {
 }
 .header .navbar-brand h1 {
   font-size: 40px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -7413,7 +7413,7 @@ body.page-translucent {
   text-transform: uppercase;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   color: #999999;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 11px;
 }
 .section-menu ul.nav-list li a {
@@ -7422,7 +7422,7 @@ body.page-translucent {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 18px;
   border: 1px solid #e6e6e6;
   border-top: none;
@@ -7554,7 +7554,7 @@ body.page-translucent {
 }
 .btn {
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.428571429;
   border-radius: 1px;
 }
@@ -7890,7 +7890,7 @@ ul.nav-tabs li.open.active a:active {
   margin-right: -15px;
 }
 .bold-tabs ul li a {
-  font-weight: bold;
+  font-weight: 400;
   font-size: 18px;
   color: rgba(27, 27, 27, 0.8);
 }
@@ -8357,7 +8357,7 @@ ul.nav-tabs li.open.active a:active {
 .slide h5,
 .slide p {
   margin-top: 0;
-  font-weight: 300;
+  font-weight: 400;
 }
 .slider-appstrap-theme .tparrows,
 .flex-direction-nav a {
@@ -8394,7 +8394,7 @@ ul.nav-tabs li.open.active a:active {
   content: '\f105';
   font-family: 'FontAwesome';
   font-size: 50px;
-  font-weight: bold;
+  font-weight: 400;
   color: #55a79a;
 }
 .slider-appstrap-theme .tparrows.tp-rightarrow,
@@ -8766,7 +8766,7 @@ body.has-isotope,
   content: '\f105';
   font-family: 'FontAwesome';
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 400;
   color: white;
   text-align: center;
   display: block;
@@ -8927,7 +8927,7 @@ body.has-isotope,
 }
 .pricing-stack .well .price .digits {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 400;
 }
 .pricing-stack .well ul.points li {
   border-bottom: 1px dotted rgba(180, 180, 180, 0.8);
@@ -8982,7 +8982,7 @@ body.has-isotope,
   display: none;
 }
 .pricing-table .pricing-table-features .price {
-  font-weight: bold;
+  font-weight: 400;
   font-size: 22px;
 }
 .pricing-table .well {
@@ -9148,7 +9148,7 @@ body.has-isotope,
 }
 .customers li.customer a .title {
   text-transform: none;
-  font-weight: bold;
+  font-weight: 400;
 }
 .customers li.customer a .description {
   color: rgba(27, 27, 27, 0.8);
@@ -9815,7 +9815,7 @@ body.has-isotope,
 }
 .header-old #navigation .navbar-brand h1 {
   font-size: 40px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -10280,7 +10280,7 @@ body.has-isotope,
     padding: 18px 20px;
     margin: 0;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 400;
     text-transform: uppercase;
     color: #BABAB3;
     border-top: 3px solid transparent;
@@ -10636,7 +10636,7 @@ body.has-isotope,
   .header-old .dropdown-menu li.dropdown-header,
   .header-old .dropdown-footer,
   .header-old .dropdown-menu li.dropdown-footer {
-    font-weight: bold;
+    font-weight: 400;
     font-size: 12px;
     padding: 5px 10px;
     margin-top: 10px;
