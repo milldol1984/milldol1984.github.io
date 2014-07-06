@@ -4255,7 +4255,7 @@
   /* Opera/IE 8+ */
 }
 .branding {
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Rambla", Arial, serif;
   padding: 0;
   margin: 6px 0 0 0;
@@ -4271,7 +4271,7 @@
 }
 .branding h1 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -7052,7 +7052,7 @@ ul.list-border-spacer li:hover {
   padding: 20px 0 15px 0;
 }
 .header .navbar-brand {
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Rambla", Arial, serif;
   padding: 0;
   margin: 6px 0 0 0;
@@ -7068,7 +7068,7 @@ ul.list-border-spacer li:hover {
 }
 .header .navbar-brand h1 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -7554,7 +7554,7 @@ body.page-translucent {
 }
 .btn {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.428571429;
   border-radius: 1px;
 }
@@ -8357,7 +8357,7 @@ ul.nav-tabs li.open.active a:active {
 .slide h5,
 .slide p {
   margin-top: 0;
-  font-weight: 400;
+  font-weight: 300;
 }
 .slider-appstrap-theme .tparrows,
 .flex-direction-nav a {
@@ -9799,7 +9799,7 @@ body.has-isotope,
   margin: 16px 0 0 0;
 }
 .header-old #navigation .navbar-brand {
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Rambla", Arial, serif;
   padding: 0;
   margin: 6px 0 0 0;
@@ -9815,7 +9815,7 @@ body.has-isotope,
 }
 .header-old #navigation .navbar-brand h1 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   line-height: 1;
