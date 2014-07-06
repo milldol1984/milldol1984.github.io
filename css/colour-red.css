@@ -390,7 +390,7 @@ ul.nav-tabs li.open.active a:active {
   margin-right: -15px;
 }
 .bold-tabs ul li a {
-  font-weight: bold;
+  font-weight: 400;
   font-size: 18px;
   color: rgba(27, 27, 27, 0.8);
 }
@@ -401,7 +401,7 @@ ul.nav-tabs li.open.active a:active {
 }
 .bold-tabs ul li a small {
   display: block;
-  font-weight: normal;
+  font-weight: 400;
 }
 .bold-tabs ul li a:hover i {
   color: #be3e1d;
