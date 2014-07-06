@@ -4547,8 +4547,7 @@ blockquote.blockquote-plain.pull-right {
 }
 .title-divider {
   text-align: left;
-  margin-bottom: 1em;
-  background: #ffffff url(../img/bg_divider.png) left center repeat-x;
+  margin-bottom: 1em; 
   padding: 0;
 }
 .title-divider span {
