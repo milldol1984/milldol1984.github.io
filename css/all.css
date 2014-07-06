@@ -30,6 +30,13 @@ img {
 .block-item {
   text-align: center;
 }
+
+.block-item p {
+  text-align: left;
+	margin-left: 48px;
+	width: 280px;
+}
+
 .block-item img {
     margin: auto auto;
 }

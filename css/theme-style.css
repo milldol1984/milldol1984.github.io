@@ -4559,6 +4559,8 @@ blockquote.blockquote-plain.pull-right {
 .title-divider span {
   background: #ffffff;
   padding-right: 0.5em;
+  margin-bottom: 10px;
+  display: block;
 }
 .title-divider small {
   display: block;
