@@ -8617,7 +8617,7 @@ ul.nav-tabs li.open.active a:active {
   -webkit-transform: translateZ(0);
 }
 .slide .caption {
-  padding: 5%;
+  padding: 3%;
   text-align: center;
 }
 
@@ -8631,6 +8631,7 @@ ul.nav-tabs li.open.active a:active {
 
 .slide .caption h3 {
 	font-size: 20px;
+	margin: 30px 0;
 }
 
 .slide .caption h1 {
@@ -8639,8 +8640,8 @@ ul.nav-tabs li.open.active a:active {
 
 .slide .caption .btn {
   margin: 0;
-  background: #89c402 url(../img/btn_set.png) no-repeat right 4px;
-  padding-right: 40px;
+  background: #89c402 url(../img/btn_set.png) no-repeat 96% 7px;
+  padding-right: 46px;
   float: left;
   border: none;
 }
