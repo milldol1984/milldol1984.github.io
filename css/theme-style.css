@@ -7376,8 +7376,8 @@ ul.list-border-spacer li:hover {
 }
 #highlighted .inner {
   background: url(../img/bg_diamond.jpg) center 0 repeat-x;
-  height: 375px;
 }
+
 #highlighted ul.nav-pills {
   margin: 0;
 }
