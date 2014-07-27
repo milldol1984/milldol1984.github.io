@@ -7620,7 +7620,12 @@ fieldset[disabled] .btn-default.active {
   color: #f5f5f5;
   background-color: #4b4b4b;
 }
-
+.btn-primary {
+  color: #ffffff;
+  border: none;
+  background: #89c402 url(../img/btn_set.png) no-repeat 96% 7px;
+  padding-right: 46px;
+}
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -8636,7 +8641,6 @@ ul.nav-tabs li.open.active a:active {
 	font-size: 25px;
 }
 
-.btn-primary,
 .slide .caption .btn {
   margin: 0;
   background: #89c402 url(../img/btn_set.png) no-repeat 96% 7px;
