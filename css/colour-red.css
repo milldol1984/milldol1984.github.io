@@ -817,6 +817,7 @@ body .navbar-nav li.dropdown.open.active > .dropdown-toggle .caret {
   .navbar-nav > li.open.active > .dropdown-toggle,
   #main-menu > li.open.active > .dropdown-toggle {
     border-top-color: #be3e1d !important;
+	 color: #00abec!important;
     /* primary colour */
   }
   .navbar-collapse .dropdown-menu {

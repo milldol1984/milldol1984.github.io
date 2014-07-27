@@ -5560,9 +5560,7 @@ ul.list-border-spacer li:hover {
     border: 1px solid transparent;
     border-top: 3px solid transparent;
   }
-  .navbar-nav > li.open > a:hover {
-	  color: #00abec;
-  }
+  
   .navbar-nav > li > a:hover,
   #main-menu > li > a:hover,
   .navbar-nav > li.active > a,
