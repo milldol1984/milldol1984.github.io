@@ -5259,7 +5259,7 @@ ul.list-border-spacer li:hover {
   font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
-  color: #BABAB3;
+  color: #00abec;
   color: rgba(255, 255, 255, 0.7);
 }
 .navbar-nav > li > a .caret,
@@ -5873,6 +5873,7 @@ ul.list-border-spacer li:hover {
     box-shadow: 0;
     background: #6a6a6a;
     color: #fff;
+	opacity: 80;
   }
   .navbar-collapse .dropdown-menu li a:before,
   .navbar-collapse .dropdown-menu li a.menu-item:before {
