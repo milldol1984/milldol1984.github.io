@@ -7375,7 +7375,8 @@ ul.list-border-spacer li:hover {
   background-color: transparent;
 }
 #highlighted .inner {
-  background: url(../img/bg_diamond.jpg) left bottom no-repeat;
+  background: url(../img/bg_diamond.jpg) 0 0 no-repeat;
+  height: 375px;
 }
 #highlighted ul.nav-pills {
   margin: 0;
