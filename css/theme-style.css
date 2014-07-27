@@ -7375,7 +7375,7 @@ ul.list-border-spacer li:hover {
   background-color: transparent;
 }
 #highlighted .inner {
-  background: url(../img/bg_diamond.jpg) 0 0 no-repeat;
+  background: url(../img/bg_diamond.jpg) center 0 repeat-x;
   height: 375px;
 }
 #highlighted ul.nav-pills {
@@ -7620,11 +7620,7 @@ fieldset[disabled] .btn-default.active {
   color: #f5f5f5;
   background-color: #4b4b4b;
 }
-.btn-primary {
-  color: #ffffff;
-  background-color: #55a79a;
-  border-color: #4c968a;
-}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -8640,6 +8636,7 @@ ul.nav-tabs li.open.active a:active {
 	font-size: 25px;
 }
 
+.btn-primary,
 .slide .caption .btn {
   margin: 0;
   background: #89c402 url(../img/btn_set.png) no-repeat 96% 7px;
