@@ -5871,12 +5871,8 @@ ul.list-border-spacer li:hover {
     border-radius: 0;
     -webkit-box-shadow: 0;
     box-shadow: 0;
-    background-image: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
-    background-image: linear-gradient(to bottom, #ffffff 0%, #f7f7f7 100%);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff7f7f7', GradientType=0);
-    border-bottom: 1px solid #e6e6e6;
-    color: #1b1b1b;
+    background: #6a6a6a;
+    color: #fff;
   }
   .navbar-collapse .dropdown-menu li a:before,
   .navbar-collapse .dropdown-menu li a.menu-item:before {
@@ -7831,6 +7827,7 @@ ul.nav-tabs li.open a:active {
   border: 1px solid #e6e6e6;
   margin-right: 0;
   background: white;
+  color: #00abec;
 }
 ul.nav-tabs li a:hover,
 ul.nav-tabs li.open a:hover {
