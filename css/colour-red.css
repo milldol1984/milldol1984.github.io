@@ -870,9 +870,9 @@ body .pricing-stack .well.active {
   /* primary colour */
 }
 body .pricing-stack .well.active .price {
-  background: #be3e1d;
+  background: #00abec;
   /* primary colour */
-  border-color: #be3e1d;
+  border-color: #fff;
 }
 body .section-menu ul.nav-list li a:hover i {
   color: #be3e1d;
